@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		186EE37C26032E1C0050CF7A /* WX20191126-164229.png in Resources */ = {isa = PBXBuildFile; fileRef = 186EE37B26032E1C0050CF7A /* WX20191126-164229.png */; };
 		8408807723893C6100CAAB89 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8408807623893C6100CAAB89 /* AppDelegate.m */; };
 		8408807D23893C6100CAAB89 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8408807C23893C6100CAAB89 /* ViewController.m */; };
 		8408808223893C6400CAAB89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8408808123893C6400CAAB89 /* Assets.xcassets */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		186EE37B26032E1C0050CF7A /* WX20191126-164229.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WX20191126-164229.png"; sourceTree = "<group>"; };
 		8408807223893C6100CAAB89 /* WKWebViewRequestHook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WKWebViewRequestHook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8408807523893C6100CAAB89 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8408807623893C6100CAAB89 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -49,6 +51,7 @@
 		8408806923893C6100CAAB89 = {
 			isa = PBXGroup;
 			children = (
+				186EE37B26032E1C0050CF7A /* WX20191126-164229.png */,
 				8408807423893C6100CAAB89 /* WKWebViewRequestHook */,
 				8408807323893C6100CAAB89 /* Products */,
 			);
@@ -148,6 +151,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				186EE37C26032E1C0050CF7A /* WX20191126-164229.png in Resources */,
 				8408808523893C6400CAAB89 /* LaunchScreen.storyboard in Resources */,
 				8408808223893C6400CAAB89 /* Assets.xcassets in Resources */,
 			);

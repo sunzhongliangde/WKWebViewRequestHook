@@ -34,6 +34,7 @@
 
 // 是否拦截此请求
 + (BOOL)canHookWithRequest:(NSURLRequest *)request {
+    NSLog(@"----正在请求：%@", request.URL.absoluteString);
     if ([request.URL.pathExtension caseInsensitiveCompare:@"png"] == NSOrderedSame ||
         [request.URL.pathExtension caseInsensitiveCompare:@"jpg"] == NSOrderedSame)
     {
@@ -46,7 +47,12 @@
 /// @param request 请求
 + (NSURLRequest *)forwardRequest:(NSURLRequest *)request {
     NSMutableURLRequest *mutableReqeust = [request mutableCopy];
-    mutableReqeust.URL = [NSURL URLWithString:@"https://www.baidu.com/img/bd_logo1.png?where=super"];
+//    mutableReqeust.URL = [NSURL URLWithString:@"https://www.baidu.com/img/bd_logo1.png?where=super"];
+    
+    
+    NSString *pathString = [[NSBundle mainBundle] pathForResource:@"WX20191126-164229" ofType:@"png"];
+
+    mutableReqeust.URL = [NSURL fileURLWithPath:pathString];
     
     return mutableReqeust;
 }
